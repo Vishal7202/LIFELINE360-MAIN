@@ -1,0 +1,60 @@
+/* Remove dark mode and CSS variable code, restore to original styles */
+
+body, .auth-bg, .doctor-main, .doctor-container, .doctor-sidebar, .card, .stat-card, .appointment-card {
+  background: var(--bg-color) !important;
+  color: var(--text-color) !important;
+}
+.doctor-sidebar {
+  background: var(--sidebar-bg) !important;
+  color: var(--sidebar-text) !important;
+}
+.card, .stat-card, .appointment-card {
+  background: var(--card-bg) !important;
+}
+
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+header, .navbar {
+  background: var(--navbar-bg) !important;
+}
