@@ -224,6 +224,17 @@ CLIENT_URL=http://localhost:5173
 * View Reports
 
 ---
+📸 Project Brochure
+Front Brochure
+<p align="center"> <img src="screenshots/brochure-front.png" alt="LifeLine360 Front Brochure" width="900"/> </p>
+Back Brochure
+<p align="center"> <img src="screenshots/brochure-back.png" alt="LifeLine360 Back Brochure" width="900"/> </p>
+
+Note: Save your brochure images inside the screenshots/ folder as:
+
+screenshots/brochure-front.png
+screenshots/brochure-back.png
+📸 Screenshots
 
 # 📸 Screenshots
 
