@@ -6,10 +6,11 @@ A modern, full-stack healthcare management platform built with the **MERN Stack*
 
 ## 📖 Project Overview
 
-LifeLine360 is designed to digitize healthcare services by providing an easy-to-use and scalable platform for healthcare providers and patients. The system follows a modular architecture with role-based access control, making it secure, maintainable, and easy to extend.
+LifeLine360 is designed to digitize healthcare services by providing an easy-to-use, secure, and scalable platform for healthcare providers and patients. The system follows a modular architecture with role-based access control, making it secure, maintainable, and easy to extend.
 
-The platform aims to improve healthcare accessibility by allowing users to manage appointments, prescriptions, medicine orders, and medical records from anywhere.
+The platform enables users to book doctor appointments, consult doctors online, order medicines, book laboratory tests, access digital patient records, and manage healthcare services from anywhere.
 
+LifeLine360 connects Patients, Doctors, Pharmacies, Laboratories, Delivery Partners, and Administrators on a single platform to provide a seamless healthcare experience.
 ---
 
 # ✨ Features
